@@ -1,0 +1,23 @@
+{
+    "name": "cifra-cesar",
+    "version": "1.0.0",
+    "description": "aplicação capaz de decifrar uma mensagem codificada com o codigo de cesar.",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
+    },
+    "nodemonConfig": {
+        "ignore": [
+            "src/controllers/temp/*"
+        ]
+    },
+    "author": "Pedro Ribeiro",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.19.2",
+        "express": "^4.17.1",
+        "express-group-routes": "^1.1.0",
+        "form-data": "^3.0.0"
+    }
+}
