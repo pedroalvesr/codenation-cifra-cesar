@@ -16,7 +16,7 @@
     "license": "ISC",
     "dependencies": {
         "axios": "^0.19.2",
-        "express": "^4.17.1",
+        "express": "^4.17.3",
         "express-group-routes": "^1.1.0",
         "form-data": "^3.0.0"
     }
